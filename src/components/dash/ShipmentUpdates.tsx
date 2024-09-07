@@ -44,7 +44,7 @@ const ShipmentUpdates = ({ className }: { className: string }) => {
     <div
       className={`bg-white p-4 rounded-[10px] border-[1.5px] border-[#e5e5e5] ${className}`}
     >
-      <div className="flex justify-between items-center mb-3">
+      <div className="flex  justify-between items-center mb-3">
         <h2 className="text-md font-semibold">Shipment Updates</h2>
         <span className="text-sm text-gray-500">Total Orders: 394</span>
       </div>

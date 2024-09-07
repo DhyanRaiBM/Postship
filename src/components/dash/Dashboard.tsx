@@ -11,12 +11,12 @@ const Dashboard = () => {
       </h1>
       <TimeFilter />
 
-      <div className="flex flex-col md:flex-row gap-4 mt-6">
-        <ShipmentUpdates className="w-full md:w-[440px]" />
+      <div className="flex flex-col lg:flex-row gap-4 mt-6">
+        <ShipmentUpdates className="w-full lg:w-[440px]" />
 
-        <StarFacts className="w-full md:w-[210px]" />
+        <StarFacts className="w-full lg:w-[210px]" />
 
-        <TrackingStats className="w-full md:w-[440px]" />
+        <TrackingStats className="w-full lg:w-[440px]" />
       </div>
     </div>
   )
